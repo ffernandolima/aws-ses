@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B72427BB-A22E-477C-9A2F-29FFC3944FE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E49282AC-FC86-4E47-AEDF-858DFB004CBE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{10D21F02-E7FF-4D8C-AFBF-C0342421846B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\nuget.exe = .nuget\nuget.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.SES", "src\AWS.SES\AWS.SES.csproj", "{23D5007D-FF40-48DB-A7E1-6A87DB7F7D97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D5007D-FF40-48DB-A7E1-6A87DB7F7D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D5007D-FF40-48DB-A7E1-6A87DB7F7D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D5007D-FF40-48DB-A7E1-6A87DB7F7D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D5007D-FF40-48DB-A7E1-6A87DB7F7D97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23D5007D-FF40-48DB-A7E1-6A87DB7F7D97} = {B72427BB-A22E-477C-9A2F-29FFC3944FE4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3767C29E-77B8-44CB-A1A0-1651D6CFCA6B}
+	EndGlobalSection
+EndGlobal

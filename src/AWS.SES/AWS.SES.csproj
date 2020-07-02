@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.101" />
+        <PackageReference Include="AWSSDK.SimpleEmail" Version="3.3.101.170" />
+        <PackageReference Include="Extensions.Configuration.Factory" Version="1.0.0" />
+        
+    </ItemGroup>
+
+</Project>
