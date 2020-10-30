@@ -6,8 +6,8 @@
 
     <ItemGroup>
         <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.101" />
-        <PackageReference Include="AWSSDK.SimpleEmail" Version="3.3.101.170" />
-        <PackageReference Include="Extensions.Configuration.Factory" Version="1.0.0" />
+        <PackageReference Include="AWSSDK.SimpleEmail" Version="3.5.0.34" />
+        <PackageReference Include="Extensions.Configuration.Factory" Version="2.2.0" />
         
     </ItemGroup>
 
